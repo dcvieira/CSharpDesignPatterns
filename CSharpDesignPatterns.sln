@@ -5,9 +5,13 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{FF937AB9-FE4A-4A85-9AA6-12FBBBF1EC41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleStock", "Observer\ExampleStock\ExampleStock.csproj", "{6AABA919-1A98-40B7-A4DA-E6E676099BBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleStock", "Observer\ExampleStock\ExampleStock.csproj", "{6AABA919-1A98-40B7-A4DA-E6E676099BBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleBaggageInfo", "Observer\ExampleBaggageInfo\ExampleBaggageInfo.csproj", "{09D6C707-542E-438B-B5E0-D4539AB26116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleBaggageInfo", "Observer\ExampleBaggageInfo\ExampleBaggageInfo.csproj", "{09D6C707-542E-438B-B5E0-D4539AB26116}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{79791AA1-1479-453E-873C-76AD4D4DE9D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherMap", "Decorator\OpenWeatherMap\OpenWeatherMap.csproj", "{6A80C31B-D126-4658-83D3-62B2BD804FC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{09D6C707-542E-438B-B5E0-D4539AB26116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09D6C707-542E-438B-B5E0-D4539AB26116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09D6C707-542E-438B-B5E0-D4539AB26116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A80C31B-D126-4658-83D3-62B2BD804FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A80C31B-D126-4658-83D3-62B2BD804FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A80C31B-D126-4658-83D3-62B2BD804FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A80C31B-D126-4658-83D3-62B2BD804FC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6AABA919-1A98-40B7-A4DA-E6E676099BBD} = {FF937AB9-FE4A-4A85-9AA6-12FBBBF1EC41}
 		{09D6C707-542E-438B-B5E0-D4539AB26116} = {FF937AB9-FE4A-4A85-9AA6-12FBBBF1EC41}
+		{6A80C31B-D126-4658-83D3-62B2BD804FC2} = {79791AA1-1479-453E-873C-76AD4D4DE9D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {079BA855-C526-4349-A67B-1B3D15C83B1C}
