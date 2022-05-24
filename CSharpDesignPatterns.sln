@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleBaggageInfo", "Obser
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{79791AA1-1479-453E-873C-76AD4D4DE9D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherMap", "Decorator\OpenWeatherMap\OpenWeatherMap.csproj", "{6A80C31B-D126-4658-83D3-62B2BD804FC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWeatherMap", "Decorator\OpenWeatherMap\OpenWeatherMap.csproj", "{6A80C31B-D126-4658-83D3-62B2BD804FC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{34024BF5-EBF3-488F-9DA6-27400F3F6375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersStrategy", "Strategy\OrdersStrategy\OrdersStrategy.csproj", "{B01369B7-598B-4C0C-B1C9-639AC41BC39E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,10 @@ Global
 		{6A80C31B-D126-4658-83D3-62B2BD804FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A80C31B-D126-4658-83D3-62B2BD804FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A80C31B-D126-4658-83D3-62B2BD804FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01369B7-598B-4C0C-B1C9-639AC41BC39E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01369B7-598B-4C0C-B1C9-639AC41BC39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01369B7-598B-4C0C-B1C9-639AC41BC39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01369B7-598B-4C0C-B1C9-639AC41BC39E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +47,7 @@ Global
 		{6AABA919-1A98-40B7-A4DA-E6E676099BBD} = {FF937AB9-FE4A-4A85-9AA6-12FBBBF1EC41}
 		{09D6C707-542E-438B-B5E0-D4539AB26116} = {FF937AB9-FE4A-4A85-9AA6-12FBBBF1EC41}
 		{6A80C31B-D126-4658-83D3-62B2BD804FC2} = {79791AA1-1479-453E-873C-76AD4D4DE9D9}
+		{B01369B7-598B-4C0C-B1C9-639AC41BC39E} = {34024BF5-EBF3-488F-9DA6-27400F3F6375}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {079BA855-C526-4349-A67B-1B3D15C83B1C}
